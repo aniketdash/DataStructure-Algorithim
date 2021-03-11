@@ -14,19 +14,20 @@
  * }
  */
 class Solution {
-    //Recursive Solution
-    List<Integer> li;
     public List<Integer> inorderTraversal(TreeNode root) {
-        li=new ArrayList<>();
-        helper(root);
+        // Iterative solution
+        Stack<TreeNode> st=new Stack<>();
+        List<Integer> li=new ArrayList<>();
+        TreeNode curr=root;
+        while(curr!=null || !st.isEmpty()){
+            while(curr!=null){
+                st.push(curr);
+                curr=curr.left;
+            }
+            curr=st.pop();
+            li.add(curr.val);
+            curr=curr.right;
+        }
         return li;
-    }
-    
-    public void helper(TreeNode root){
-        if(root==null)
-            return;
-        helper(root.left);
-        li.add(root.val);
-        helper(root.right);
     }
 }
