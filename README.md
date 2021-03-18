@@ -1,2 +1,3 @@
 # DataStructure-Algorithim
-Collection of LeetCode questions to ace the coding interview! - Created using [LeetHub](https://github.com/QasimWani/LeetHub).
+Competative coding problems solved with time and space complexity description
+
