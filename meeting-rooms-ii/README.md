@@ -1,3 +1,4 @@
+[Discussion Post (created on 12/3/2021 at 9:27)](https://leetcode.com/problems/meeting-rooms-ii/solution/)  
 <h2>253. Meeting Rooms II</h2><h3>Medium</h3><hr><div><p>Given an array of meeting time intervals <code>intervals</code> where <code>intervals[i] = [start<sub>i</sub>, end<sub>i</sub>]</code>, return <em>the minimum number of conference rooms required</em>.</p>
 
 <p>&nbsp;</p>
