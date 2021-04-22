@@ -1,3 +1,4 @@
+[Discussion Post (created on 22/3/2021 at 13:45)](https://leetcode.com/problems/number-of-1-bits/solution/)  
 <h2>191. Number of 1 Bits</h2><h3>Easy</h3><hr><div><p>Write a function that takes an unsigned integer and returns the number of '1' bits it has (also known as the <a href="http://en.wikipedia.org/wiki/Hamming_weight" target="_blank">Hamming weight</a>).</p>
 
 <p><strong>Note:</strong></p>
